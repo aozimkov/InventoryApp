@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="info_message">Please look in the logcat to check SQL-queries logs :)</string>
+</resources>
