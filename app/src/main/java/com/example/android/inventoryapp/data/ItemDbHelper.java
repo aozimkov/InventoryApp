@@ -27,11 +27,11 @@ public class ItemDbHelper extends SQLiteOpenHelper {
         // Creation SQL:
         // CREATE TABLE `items` (
         //     `_id` INTEGER PRIMARY KEY AUTOINCREMENT,
-        //     `product name` TEXT,
+        //     `product` TEXT,
         //     `price` INTEGER,
         //     `quantity` INTEGER,
-        //     `supplier name` TEXT,
-        //     `supplier phone number` TEXT);
+        //     `supplier` TEXT,
+        //     `phone` TEXT);
 
         String SQL_CREATE_ENTRIES = "CREATE TABLE `" + ItemEntry.TABLE_NAME + "` (`" +
                 ItemEntry._ID + "` INTEGER PRIMARY KEY AUTOINCREMENT, `" +
